@@ -39,3 +39,8 @@ string get_generation(int gen)
 	}
 	return "";
 }
+
+string get_generation(int gen)
+{
+	return string();
+}

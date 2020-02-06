@@ -2,3 +2,5 @@
 //double parameter named hours and a double parameter named hourly_rate.  The function
 //returns a double which is the product of hours and hourly_rate.
 
+double gross_pay(int hours, int hourly_rate);
+
