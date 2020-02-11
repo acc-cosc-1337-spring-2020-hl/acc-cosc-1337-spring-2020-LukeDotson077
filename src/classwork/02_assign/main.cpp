@@ -6,7 +6,7 @@
 //Write namespace using statements for cout and cin
 using std::cout; using std::cin;
 
-int main() 
+int main()
 {
 	//create a double variable named hours
 	//create a double variable named hourly_rate
@@ -24,7 +24,7 @@ int main()
 	//Create a double variable named gross_salary
 	//Call the gross_pay function and save its return value to the gross_salary variable
 	double gross_salary;
-	gross_salary = gross_pay
+	//gross_salary = gross_pay;
 
 
 	//Display the gross_salary variable as follows:
@@ -32,5 +32,5 @@ int main()
 	cout << "Gross pay: ", gross_salary;
 
 	return 0;
-
+}
 
