@@ -10,3 +10,8 @@ returns 120
 
 DON'T FORGET TO WRITE TEST CASE.  See file loop_test.cpp
 */
+
+void factorial(int num)
+{
+
+}
