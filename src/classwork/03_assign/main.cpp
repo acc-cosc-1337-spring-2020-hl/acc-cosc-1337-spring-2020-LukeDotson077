@@ -14,7 +14,7 @@ factorial.  Also, loop continues as long as user wants to.
 int main() 
 {
 	cout << "Enter a number: ";
-	cin >> num;
+	//cin >> num;
 	
 	return 0;
 }
