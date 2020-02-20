@@ -12,9 +12,10 @@ and displays the numbers to screen using an indexed for loop as follows: 9 10 99
 */
 void loop_vector_w_index(vector<int> nums)
 {
-	for (int i = 0; i < nums.size(); ++i)
+	for (std::size_t i = 0; i < nums.size(); ++i)
 	{
 		cout << nums[i] << "\n";
+		nums[i] = 0;
 	}
 }
 
@@ -26,9 +27,10 @@ and displays the numbers to screen using an indexed for loop as follows: 9 10 99
 */
 void loop_vector_w_index_ref(vector<int> nums)
 {
-	for (auto n : nums)
+	for (auto &n : nums)
 	{
 		cout << n << "\n";
+		n = 0;
 
 
 	}

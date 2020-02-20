@@ -4,7 +4,7 @@
 #include "sequence.h"
 
 //write using statements for cin cout
-
+using std::cin; using std::cout;
 
 /*
 Write code to create a vector of string names, add the values "John", "Mary", "Patty",
@@ -18,6 +18,8 @@ give you a valid name.
 
 int main()
 {
+	vector<string> names{ "John", "Mary", "Patty", "Sam" };
+	display_vector(names);
 
 	return 0;
 }

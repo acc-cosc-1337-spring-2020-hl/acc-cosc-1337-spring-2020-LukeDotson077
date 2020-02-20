@@ -1,10 +1,19 @@
 //write include statements 
+#include"sequence.h"
+using std::cout; 
 
 
 /*
 Write code for void function display_vector that accepts parameter const reference vector of strings.
 The function will iterate through the vector and display a string per line.
 */
+void display_vector(const vector<string>& names)
+{
+	for (int i = 0; names.size(); ++i)
+	{
+		cout << names[i] << "\n";
+	}
+}
 
 
 /*
