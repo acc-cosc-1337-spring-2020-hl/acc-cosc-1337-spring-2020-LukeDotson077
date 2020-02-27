@@ -5,4 +5,4 @@
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
-
+TEST_CASE("Test that height and width values return correct area")
